@@ -13,7 +13,7 @@ class _BotCommands:
             f"qbm{CMD_SUFFIX}",
         ]
         self.YtdlCommand = [
-            f"ytdlm{CMD_SUFFIX}",
+            f"ytmirror{CMD_SUFFIX}",
             f"ytm{CMD_SUFFIX}",
         ]
         self.LeechCommand = [
@@ -25,7 +25,7 @@ class _BotCommands:
             f"qbl{CMD_SUFFIX}",
         ]
         self.YtdlLeechCommand = [
-            f"ytdlleech{CMD_SUFFIX}",
+            f"ytleech{CMD_SUFFIX}",
             f"ytl{CMD_SUFFIX}",
         ]
         self.CloneCommand = f"clone{CMD_SUFFIX}"
@@ -71,12 +71,12 @@ class _BotCommands:
         self.ExecCommand = f"exec{CMD_SUFFIX}"
         self.ClearLocalsCommand = f"clearlocals{CMD_SUFFIX}"
         self.BotSetCommand = [
-            f"bsetting{CMD_SUFFIX}",
+            f"admins{CMD_SUFFIX}",
             f"bset{CMD_SUFFIX}",
             f"bs{CMD_SUFFIX}",
         ]
         self.UserSetCommand = [
-            f"usetting{CMD_SUFFIX}",
+            f"settings{CMD_SUFFIX}",
             f"uset{CMD_SUFFIX}",
             f"us{CMD_SUFFIX}",
         ]
